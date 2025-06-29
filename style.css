@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: white;
+    color:#405341;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding :20px;
+    font-family:Outfit;
+    background-color: white;
+    border: 2px solid #ECECEC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.personae img {
+    width: 100%;
+    height:85vh
+}
+
+nav ul li{
+    display:inline-block;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+nav ul li a{
+    color:#405341;
+    text-decoration:none;
+}
+
+.nav-button{
+    background-color: #D687AF;
+    color: white;
+    padding : 6px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.header-button{
+    background-color: #D687AF;
+    color: white;
+    padding : 6px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: Outfit;
+    width: fit-content;
+}
+
+h1{
+    font-family: 'Outfit';
+    font-weight: semi-bold;
+    font-size:80px;
+    margin-bottom: -30px;
+}
+
+h2{
+    font-family: Outfit;
+    font-size:30px
+}
+
+p{
+    font-family: Outfit;
+}
+
+.rose{
+    color:#D687AF
+}
+
+#first-section{
+    background-color: #EFC35B;
+    background-image: url('images/bgheader.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+.header-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-text{
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header-text h1 {
+    margin-bottom: -1%;
+    margin-left: 3%;
+}
+
+.header-text p {
+    margin: 3%;
+}
+
+.header-text a {
+    margin: 3%;
+}
+
+.icon-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.informations-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Informations {
+    padding: 80px;
+}
+
+.emplacement {
+    text-align: center;
+}
+
+.calendrier {
+    text-align: center;
+}
+
+.rechercher {
+    text-align: center;
+}
+
+.mockup{
+width:100%;
+text-align: center;
+}
+
+.mockup img{
+width:100%
+}
+
+#CTA-final{
+    background-color: #405341;
+    height: 30vh;
+}
+
+#retours-et-appli{
+    background-image: url('images/bg2.png')
+}
